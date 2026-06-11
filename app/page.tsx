@@ -593,5 +593,6 @@ export default function HomePage() {
         {showEncouragement && <Encouragement />}
       </div>
     </main>
-  );
+  );  
 }
+fix regex
