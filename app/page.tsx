@@ -399,7 +399,7 @@ function ResultCard({
   const { displayed, done } = useTypewriter(result, 10);
 
   // Split content to separate score section and the rest
-  const scoreMatch = displayed.match(/^(.*?)# 总评分（15分制）\s*\n(.*?)(?=\n# |$)(.*)$/s);
+  const scoreMatch = displayed.match(/^(.*?)# 总评分（15分制）\s*\n([\s\S]*?)(?=\n# |$)([\s\S]*)$/);
   
   let preScore = "";
   let scoreSection = "";
