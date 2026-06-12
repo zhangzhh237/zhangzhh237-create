@@ -45,3 +45,4 @@ npm run dev
 - TypeScript
 - TailwindCSS
 - DeepSeek API
+六级作文小陪练 - 给女朋友的温暖工具 🌷
